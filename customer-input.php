@@ -3,7 +3,7 @@
 <?php require 'menu.php';?>
 <?php
 $name=$address=$login=$password='';
-if (isset($_SEESION['customer'])) {
+if (isset($_SESSION['customer'])) {
     $name=$_SESSION['customer']['name'];
     $address=$_SESSION['customer']['address'];
     $login=$_SESSION['customer']['login'];

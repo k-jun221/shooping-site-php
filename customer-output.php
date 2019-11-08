@@ -21,7 +21,7 @@ if (empty($sql->fetchAll())) {
 			$_REQUEST['login'], $_REQUEST['password'], $id]);
 		$_SESSION['customer']=[
 			'id'=>$id, 'name'=>$_REQUEST['name'], 
-			'address'=>$_REQUEST['address'], 'login'=>$_REQUEST['login'], 
+			'address'=>$_REQUEST['address'], 'login'=>$_REQUEST['login'],
 			'password'=>$_REQUEST['password']];
 		echo 'お客様情報を更新しました。';
 	} else {
