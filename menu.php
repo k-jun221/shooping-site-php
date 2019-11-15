@@ -1,3 +1,4 @@
+<!--メニューを表示する処理-->
 <a href="product.php">商品</a>
 <a href="favorite-show.php">お気に入り</a>
 <a href="history.php">購入履歴</a>

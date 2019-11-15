@@ -1,3 +1,4 @@
+<!--顧客情報を表示する処理-->
 <?php session_start();?>
 <?php require 'header.php';?>
 <?php require 'menu.php';?>

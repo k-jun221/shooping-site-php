@@ -1,3 +1,4 @@
+<!--ログイン機能を表示する機能-->
 <?php require 'header.php';?>
 <?php require 'menu.php';?>
 <form action="login-output.php" method="post">

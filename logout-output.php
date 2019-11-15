@@ -1,12 +1,13 @@
-<?php session_start();?>
-<?php require 'header.php';?>
-<?php require 'menu.php';?>
+<!--ログイン処理-->
+<?php session_start(); ?>
+<?php require 'header.php'; ?>
+<?php require 'menu.php'; ?>
 <?php
 if (isset($_SESSION['customer'])) {
-  unset($_SESSION['customer']);
-  echo 'ログアウトしました。';
-}else {
-  echo 'すでにログアウトしています。';
+	unset($_SESSION['customer']);
+	echo 'ログアウトしました。';
+} else {
+	echo 'すでにログアウトしています。';
 }
 ?>
-<?php require 'footer.php';?>
+<?php require 'footer.php'; ?>
